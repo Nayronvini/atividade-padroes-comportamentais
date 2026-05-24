@@ -1,5 +1,7 @@
 package br.edu.ifpb.ads.padroes.atv1;
 
+import br.edu.ifpb.ads.padroes.atv1.interessados.Interessado;
+
 import java.util.LinkedList;
 import java.util.List;
 

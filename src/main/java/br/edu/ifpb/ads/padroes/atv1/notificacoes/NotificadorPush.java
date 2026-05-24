@@ -1,6 +1,4 @@
-package br.edu.ifpb.ads.padroes.atv1.notifications;
-
-import br.edu.ifpb.ads.padroes.atv1.Notificador;
+package br.edu.ifpb.ads.padroes.atv1.notificacoes;
 
 public class NotificadorPush implements Notificador {
 
