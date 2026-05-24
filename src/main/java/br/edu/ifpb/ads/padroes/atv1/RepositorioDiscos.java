@@ -1,3 +1,8 @@
+package br.edu.ifpb.ads.padroes.atv1;
+
+import java.util.LinkedList;
+import java.util.List;
+
 public class RepositorioDiscos {
 
     private List<Disco> discos = new LinkedList<>();
