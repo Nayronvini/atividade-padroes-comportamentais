@@ -20,18 +20,16 @@ public class Main {
         itens.add(new Servico("Manutenção", 500.0));
         itens.add(new Servico("Consultoria", 1200.0));
 
-        System.out.println("--- RELATÓRIO DE IMPOSTOS ---");
+        System.out.println("--- IMPRESSÃO DOS ITENS ---");
+        for (Item item : itens) {
+            item.accept(visitorImpressao);
+        }
+        System.out.println();
 
+        System.out.println("--- RELATÓRIO DE IMPOSTOS ---");
         for (Item item : itens) {
             item.accept(visitorImposto);
         }
 
-        System.out.println();
-
-        System.out.println("--- IMPRESSÃO DOS ITENS ---");
-
-        for (Item item : itens) {
-            item.accept(visitorImpressao);
-        }
     }
 }
